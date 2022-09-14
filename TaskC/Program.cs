@@ -3,7 +3,7 @@
     string[] change = new string[s.Length];
     for (int i = 0; i < s.Length; i++)
     {
-        if (s[i].Length < change.Length)
+        if (s[i].Length <= 3)
         {
             change[i] = s[i];
             Console.Write(change[i] + "  ");
